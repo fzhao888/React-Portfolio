@@ -57,8 +57,7 @@ const projects = [
 export default function Portfolio() {
   return (
     <div>
-      <section className='portfolio'>
-        <h1>Portfolio Page</h1>
+      <section className='portfolio'> 
         <Project projects={projects} />
       </section>
     </div>
