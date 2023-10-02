@@ -8,6 +8,10 @@
     background-color: skyblue;
  }
 
+ h1 {
+   text-align: center;
+ }
+
  h2{
    margin-right: 10px;
 
@@ -27,7 +31,7 @@
    justify-content: center;
  }
 
- .me img{
+ .meImg{
    margin-right: 20px; 
  }
 

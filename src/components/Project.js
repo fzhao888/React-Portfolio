@@ -7,7 +7,7 @@ export default function Project(props) {
     return (
         <div>
             <section className='project'>
-                <h1>Portfolio Page</h1>
+                <h1>Portfolio</h1>
                 <section className="project-card col-md-12">
                     {
                         props.projects.map(project => (
