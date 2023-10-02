@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
 
 
     return (
-        <div>            
+        <div className='portfolioContainer container-fluid'>            
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer />

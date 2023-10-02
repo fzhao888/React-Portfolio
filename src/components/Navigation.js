@@ -3,7 +3,7 @@ import React from 'react';
 // adds our navbar
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs"> 
+        <ul className="nav nav-tabs navbar-expand-md me-auto"> 
             <li className="nav-item">
                 <a
                 //adds About nav item
@@ -17,12 +17,12 @@ function Navigation({ currentPage, handlePageChange }) {
 
             <li className="nav-item">
                 <a
-                //adds Contact nav item
-                    href="#Contact"
-                    onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                //adds Resume nav item
+                    href="#Resume"
+                    onClick={() => handlePageChange('Resume')}
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
-                    Contact
+                    Resume
                 </a>
             </li>
 
@@ -39,12 +39,12 @@ function Navigation({ currentPage, handlePageChange }) {
 
             <li className="nav-item">
                 <a
-                //adds Resume nav item
-                    href="#Resume"
-                    onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                //adds Contact nav item
+                    href="#Contact"
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
-                    Resume
+                    Contact
                 </a>
             </li>
         </ul>

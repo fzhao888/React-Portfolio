@@ -1,177 +1,73 @@
-/**Styles as elements  */
-* {
-    box-sizing: border-box;
-    padding: 1%;
-    margin: 1%;
-}
-
-/**Styles body */
-body {
+ .portfolioContainer {
+    display: flex;
+    flex-direction: column; 
+    width: auto;
+    height: 100vh; 
+    width: 100%;
     background-color: skyblue;
-}
+ }
 
-/*styles header */
-header{
-    padding: 20px;
-    background-color: #2a607c;
-    color: #ffffff;           
-}
+ h2{
+   margin-right: 10px;
 
-/*styles h1 elements inside header*/
-header h1 {
-    display:inline-flex;
-    font-size: 24px;
-}
+ }
 
-/**styles pins nav bar to right side and sets font size  */
-header nav { 
-    float: right;
-    font-size: 20px;
-}
+ .about{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
 
-/*nav bar list */
-nav ul{
-    display: flex;
-    white-space: nowrap;
-}
+ .me{ 
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+ }
+
+ .me img{
+   margin-right: 20px; 
+ }
 
 
-/*styles the text of the links */
-header a{
-    color:white;
-}
 
-/*styles titles in content section */
-.content h2{
-    white-space: nowrap;
-    display: flex;
-    border-right: 5px solid darkblue; 
-    align-items: center; 
-}
+ .portfolio{
+   display: flex;
+   flex-direction: row;
+ }
 
-/*styles about me section */
-.about-me{
-    display: flex; 
-} 
-
-/*styles work section */
-.work{
-    display:flex;
-}
-
-/*styles projects section */
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*adds some padding between the project img and project description */
-.projects img{
-    padding-bottom: 2%;
-}
-
-/*adds some padding between the project title and the project image */
-.projects h3{
-    padding-bottom: 1%;
-}
-
-/*adds padding to the bottom of the first project row*/
-.project-row1{
-    padding-bottom: 2%;
-}
-
-/**styles first row of project images  */
-.project-row1 img{
-   width: 80%;
-}
-
-/*styles second row of projects */
-.project-row2{
-    display: flex; 
-    padding-bottom: 2%;
-}
-
- /*styles third row of projects */
-.project-row3{
-    display:flex;
-    padding-bottom: 2%;
-}
-
-/*styles contact us section */
-.contact-us{
-    display: flex;
-    white-space: nowrap;  
-}
-
-/*styles contact us links */
-.contact-us .links{
-    display: flex;
-}
-
-/*Handles when the screen is 992px or smaller */
-@media screen and (max-width: 992px) {
-    .card {
-        width: 50%;
-    }
-    .card img{
-        width: 50%;
-    }
-  }
-
-  /*Handles when screen is between 769 and 991 */
-  @media screen and (min-width: 769px) and (max-width: 991px) {
-      .card {
-        width: 100%;   
-      }
-      .card img{
-        width: 50%;
-    }
-
-      .contact-us .card{
-          font-size: 10px;
-          width: 5%;
-      }
-  
-      .contact-us .card p{
-          padding-right: 5px; 
-      }
-  
-      header .card h1 {
-          font-size:20px; 
-      }
-  
-      header .card nav{
-          font-size:15px;  
-      } 
-  }
-  
-  /*Handles when screen is  768px or smaller */
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 100%; 
-      font-size: 10px;
-    }
-    .card img{
-        width: 100%;
-    }
-    .contact-us .card{
-        display: flex;
-        flex-direction: column;
-        font-size: 10px;
-        width: 5%;
-    }
-
-    .contact-us .card p{
-        padding-right: 5px; 
-    }
-
-    header .card h1 {
-        font-size:15px;
-        width:50%;
-    }
-
-    header .card nav{
-        font-size:10px;
-    }
-  }
  
+ .project{
+   display: flex;
+   display: row;
+   flex-wrap: wrap ;
+   justify-content: center;
+ }
+
+ .projectInfo{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 5px;
+ } 
+ 
+ .project-card{
+   display: flex;
+   flex-wrap: wrap; 
+ }
+
+ .links{ 
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .github {
+   margin-right: 10px;
+ }
+
+ .footer{
+   margin-top: auto;
+   margin-bottom: 5px;
+ }

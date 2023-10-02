@@ -3,12 +3,12 @@ import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 function Footer(){
     return (
-        <section className="card">
+        <div className="footer">
             <section className="links"> 
-                <a href="https://github.com/fzhao888"> <BsGithub/></a> 
-                <a href="https://www.linkedin.com/in/frank-zhao-1bb65822a/"><BsLinkedin/></a>            
+                <a href="https://github.com/fzhao888" className='github'>  <BsGithub size={'2em'}/> </a>  
+                <a href="https://www.linkedin.com/in/frank-zhao-1bb65822a/"><BsLinkedin size={'2em'}/></a>            
             </section>
-      </section>
+      </div>
     );
 };
 
