@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <h1>Resume Page</h1>
       <a className='button' href='assets/Frank-Zhao.pdf' download='Frank-Zhao.pdf'> Download Resume</a>
-      <section className='Proficiencies col-md-6'>
+      <section className='proficiencies col-md-6'>
         <h3>Front-End Proficiencies</h3>
         <ul>
           <li> HTML </li>
