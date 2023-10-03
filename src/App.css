@@ -1,95 +1,101 @@
- .portfolioContainer {
-    display: flex;
-    flex-direction: column; 
-    width: auto;
-    height: 100%; 
-    min-height: 100vh;
-    width: 100%;
-    background-color: skyblue;
- }
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-color: skyblue;
+}
 
- h1 {
-   text-align: center;
- }
+h1 {
+  text-align: center;
+}
 
- h2{
-   margin-right: 10px;
+h2 {
+  margin-right: 10px;
+}
 
- }
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
- .about{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
- }
+.me {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+}
 
- .me{ 
-   margin-top: 20px;
-   display: flex;
-   flex-direction: row; 
-   justify-content: center;
- }
+.meImg {
+  margin-right: 20px;
+}
 
- .meImg{
-   margin-right: 20px; 
- }
+.resume {
+  font-size: 20px;
+}
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+}
 
- .portfolio{
-   display: flex;
-   flex-direction: row;
- }
+.project {
+  display: flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
- 
- .project{
-   display: flex;
-   display: row;
-   flex-wrap: wrap ;
-   justify-content: center;
- }
+.projectInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
 
- .projectInfo{
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center;
-    flex-wrap: wrap; 
-    padding: 5px;
- } 
- 
- .project-card{
-   display: flex;
-   flex-wrap: wrap; 
- }
- 
- .links{ 
-   display: flex;
-   justify-content: center;
- }
- 
- .github {
-   margin-right: 10px;
- }
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+}
 
- .proficiencies{
-   margin-top: 20px;
- }  
- 
- .form-group label{
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.github {
+  margin-right: 10px;
+}
+
+form {
+  font-size: 20px;
+}
+
+.proficiencies {
+  margin-top: 20px;
+}
+
+.form-group label {
   margin-top: 10px;
   margin-bottom: 10px;
- }
+}
 
- .form-group button{
+.form-group button {
   margin-top: 20px;
- }
- 
- .error-text{
-  font-size: 24px;
-  text-align: center;
- }
+}
 
- .footer{
-   margin-top: auto;
-   margin-bottom: 5px;
- }
+.error-text {
+  font-size: 28px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 5px;
+}
