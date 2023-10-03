@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project'; 
 
+// an array of projects -> each project has a title, github link, image link, deployed link
 const projects = [
   {
       title: 'ReelDeel',
