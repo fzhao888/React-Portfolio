@@ -24,7 +24,7 @@
  To use this webpage, simply visit https://fzhao888.github.io/React-Portfolio/.
   
   Screenshot: 
-  ![Screenshot of Portfolio page](images/fzhao888.github.io_React-Portfolio_.png)
+  ![Screenshot of Portfolio page](src/assets/images//fzhao888.github.io_React-Portfolio_.png)
 
 
   ## License
@@ -33,7 +33,7 @@
   License Link: https://opensource.org/licenses/MIT
   
   ## How To Contribute
- Please click [here](github.com/fzhao888/React-Portfolio) to contribute 
+ Please click [here](https://github.com/fzhao888/React-Portfolio) to contribute 
   
   ## Tests
   N/A
