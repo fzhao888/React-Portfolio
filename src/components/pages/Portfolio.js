@@ -4,7 +4,7 @@ import Project from "../Project";
 // an array of projects -> each project has a title, github link, image link, deployed link
 const projects = [
   {
-    title: "DnD Commerece",
+    title: "DnD Commerce",
     imageLink: "images/DnD-storefront.gif",
     GitHubLink: "https://github.com/fzhao888/DNDCommerce",
     deployedLink: "https://frank-dnd-commerce-80c31f1850fc.herokuapp.com/",

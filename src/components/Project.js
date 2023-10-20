@@ -2,7 +2,6 @@ import React from "react";
 import { BsGithub } from 'react-icons/bs'
 
 
-
 export default function Project(props) {
     return (
         <div>
